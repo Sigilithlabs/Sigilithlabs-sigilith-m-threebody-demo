@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: "Sigilith-M Three-Body Demonstration"
+message: "If you use this repository, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Nash"
+    given-names: "Ky"
+    alias: "Ky Nash"
+repository-code: "https://github.com/Sigilithlabs/Sigilithlabs-sigilith-m-threebody-demo"
+abstract: >
+  A reproducible demonstration of Sigilith-M on symbolic encodings of
+  planar three-body simulations, showing structural separation of
+  collapse, constrained, and mobile regime families via symbolic
+  recurrence profiling.
+keywords:
+  - Sigilith-M
+  - symbolic recurrence profiling
+  - three-body problem
+  - symbolic dynamics
+  - structural analysis
+  - regime classification
+license: "MIT"
+version: "v1.0.0"
+date-released: "2026-04-16"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Nash"
+      given-names: "Ky"
+      alias: "Ky Nash"
+  title: "Structural Separation of Three-Body Dynamical Regimes via Symbolic Recurrence Profiling"
+  publisher: "Sigilithlabs"
+  year: 2026
+  url: "https://github.com/Sigilithlabs/Sigilithlabs-sigilith-m-threebody-demo"

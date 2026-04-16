@@ -20,7 +20,7 @@ Symbolic recurrence structure is sufficient to distinguish dynamical regime fami
 5. Compare representative families  
 
 ## Contents
-- `sigilith_m_threebody_demonstration_note.pdf`
-- `threebody_demo/`
-- `figures/figure1.png`
+- \`sigilith_m_threebody_demonstration_note.pdf\`
+- \`threebody_demo/\`
+- \`figures/figure1.png\`
 

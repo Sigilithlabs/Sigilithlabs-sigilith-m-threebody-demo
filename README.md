@@ -1,26 +1,45 @@
-# Sigilith‑M: Structural Profiling of Symbolic Dynamical Sequences
-### Separation of Collapse, Constrained, and Mobile Three‑Body Regimes via Symbolic Recurrence Profiling
+# Sigilith-M Three-Body Demonstration
 
-Sigilith‑M is a structural profiling engine for symbolic sequences. This repository contains a minimal, reproducible demonstration showing that symbolic recurrence structure alone is sufficient to distinguish dynamical regime families in a classical physical system.
+This repository contains a reproducible demonstration of Sigilith-M on symbolic encodings of planar three-body simulations. It shows how symbolic recurrence profiling can distinguish dynamical regime families without direct continuous-state analysis.
 
-## Three‑Family Result
-Sigilith‑M separates symbolic three‑body trajectories into:
-- **Collapse** — escape‑dominated symbolic flatlines  
-- **Constrained** — limited mobility within a restricted regime family  
-- **Mobile** — broad switching, loose recurrence, low structural fixation  
+## Repository Structure
 
-## Minimal Claim
-Symbolic recurrence structure is sufficient to distinguish dynamical regime families in a classical physical system.
+```text
+.
+├── figures/
+│   └── threebody_regime_separation_figure.png
+├── threebody_demo/
+│   ├── threebody_to_sigilith.py
+│   ├── threebody_search_rich.py
+│   ├── example_sequences/
+│   │   └── rank_01_run_26.txt
+│   ├── example_profiles/
+│   │   └── top_run_26_profile.json
+│   └── README.md
+├── sigilith_m_threebody_demonstration_note.pdf
+├── sigilith_m_threebody_demonstration_note.docx
+├── LICENSE
+└── README.md
+cat > README.md <<'EOF'
+# Sigilith-M Three-Body Demonstration
 
-## Reproduction Pipeline
-1. Simulate planar three‑body trajectories  
-2. Discretize each timestep into pair‑band tokens  
-3. Rank runs by symbolic richness  
-4. Profile shortlisted runs with Sigilith‑M  
-5. Compare representative families  
+This repository contains a reproducible demonstration of Sigilith-M on symbolic encodings of planar three-body simulations. It shows how symbolic recurrence profiling can distinguish dynamical regime families without direct continuous-state analysis.
 
-## Contents
-- \`sigilith_m_threebody_demonstration_note.pdf\`
-- \`threebody_demo/\`
-- \`figures/figure1.png\`
+## Repository Structure
 
+```text
+.
+├── figures/
+│   └── threebody_regime_separation_figure.png
+├── threebody_demo/
+│   ├── threebody_to_sigilith.py
+│   ├── threebody_search_rich.py
+│   ├── example_sequences/
+│   │   └── rank_01_run_26.txt
+│   ├── example_profiles/
+│   │   └── top_run_26_profile.json
+│   └── README.md
+├── sigilith_m_threebody_demonstration_note.pdf
+├── sigilith_m_threebody_demonstration_note.docx
+├── LICENSE
+└── README.md
